@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             }
             @Override
             public void onFailure(int i, Headers headers, String s, Throwable throwable) {
-                Log.d(TAG, "onFalure " + s, throwable);
+                Log.d(TAG, "onFaliure " + s, throwable);
                 //Log.i(TAG, "Failed API call", s);
             }
         });
